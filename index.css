@@ -1,23 +1,42 @@
 body {
-    background-color: #ee6d6d; /* Color de fondo profesional */
+    background-color: #ee6d6d;
 }
 
-#navbar {
-    background-color: #007BFF; /* Color contrastante para la barra de navegación */
+.navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-brand, .nav-link {
-    color: white; /* Color del texto en la barra de navegación */
+    color: white;
 }
 
 .nav-link:hover {
-    color: #FFD700; /* Color al pasar el mouse sobre los enlaces */
+    color: #FFD700;
 }
 
 h1 {
-    margin-top: 20px; /* Espaciado superior para el título */
+    margin-top: 20px;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
 p {
-    margin: 20px 0; /* Espaciado para el párrafo */
+    margin: 20px 0;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.text-danger {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.mt-4 {
+    margin-top: 2rem;
+}
+
+.fw-bold {
+    font-weight: bold;
 }
