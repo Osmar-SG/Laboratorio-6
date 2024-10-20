@@ -1,0 +1,36 @@
+body {
+    background-color: #202020;
+    color: #fff;
+}
+
+h1, h2 {
+    color: #e23636;
+}
+
+.navbar-brand {
+    font-family: 'Marvel', sans-serif;
+    font-size: 2rem;
+}
+
+.navbar {
+    background-color: #e23636;
+}
+
+footer {
+    background-color: #202020;
+    color: white;
+}
+
+.card {
+    background-color: #333;
+    border: 1px solid #e23636;
+}
+
+.list-group-item {
+    background-color: #333; /* Fondo oscuro para las noticias */
+    border: 1px solid #e23636; /* Borde rojo para destacar */
+}
+
+.list-group-item:hover {
+    background-color: #444; /* Cambio de color al pasar el mouse */
+}
